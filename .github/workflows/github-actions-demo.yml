@@ -46,7 +46,7 @@ jobs:
     steps:
      - run: |
           echo "Testing..."
-          sleep(15)
+          sleep 15
   Production:
     runs-on: ubuntu-latest
     if: inputs.environment == 'Production'
